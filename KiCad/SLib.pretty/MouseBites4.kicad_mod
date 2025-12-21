@@ -1,0 +1,105 @@
+(footprint "MouseBites4"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "MouseBites4"
+		(at 0 -1.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "64fe29ac-deea-49ad-972d-e09fca2fd35c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MouseBites4"
+		(at 0.6 1.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d9d3518d-1165-43cf-b3f8-35b180bce1ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25e8b3d2-c3f7-47e2-b9e8-e4a761a8b8ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "4 NPTH for Mouse Bite"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca6e5ef2-420f-457f-b2d8-ed257fcff0aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.6 3.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0233e347-abde-46d1-887f-8ffe644dab5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole roundrect
+		(at -1.4 0)
+		(size 0.1 0.1)
+		(drill 0.4)
+		(layers "F&B.Cu" "*.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "27a7133e-6fe6-429f-9665-b4a8900d0bc7")
+	)
+	(pad "" np_thru_hole roundrect
+		(at -0.7 0)
+		(size 0.1 0.1)
+		(drill 0.4)
+		(layers "F&B.Cu" "*.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "3cdb84c4-2061-443d-98b2-162bfb790cfc")
+	)
+	(pad "" np_thru_hole roundrect
+		(at 0 0)
+		(size 0.1 0.1)
+		(drill 0.4)
+		(layers "F&B.Cu" "*.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "e62ff882-822d-4ddf-aa04-8fe7e263c94a")
+	)
+	(pad "" np_thru_hole roundrect
+		(at 0.7 0)
+		(size 0.1 0.1)
+		(drill 0.4)
+		(layers "F&B.Cu" "*.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "022e9e15-8d5b-43ba-aa7a-338529de0faf")
+	)
+	(embedded_fonts no)
+)

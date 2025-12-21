@@ -1,0 +1,93 @@
+(footprint "LED_BIDIR_2PIN_THT_3MM_REVERSE_NR2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "LED_BIDIR_2PIN_THT_3MM_REVERSE_NR2"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fe7d171f-740b-4e3b-bcdd-28006c147fe1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LED"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "601b0cb7-3501-491e-881c-fa201327b3f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d63645c9-b8b2-4c5b-8d87-a6693ad52fa2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "781846ad-b66c-468f-92f1-ed7d221bccd5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4fa771a3-296a-4fd9-b899-24bcaf62a8c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -4.5)
+		(size 0.1 0.1)
+		(drill 3.1)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "a61321df-7248-4505-b068-84c649e10bc6")
+	)
+	(pad "1" thru_hole circle
+		(at -1 -2.15)
+		(size 1.5 1.5)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bc633178-eb90-4f95-93f1-e448f6f15020")
+	)
+	(pad "2" thru_hole circle
+		(at 1 -2.15)
+		(size 1.5 1.5)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "caa4a7f1-36a8-4d2a-b320-5fd906b52400")
+	)
+	(embedded_fonts no)
+)
