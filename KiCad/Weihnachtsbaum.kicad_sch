@@ -9521,6 +9521,17 @@
 		)
 		(uuid "25e015a7-833d-4a62-a7fe-7aa659ab2c3a")
 	)
+	(text "Mod: Pin3 auf 3V0"
+		(exclude_from_sim no)
+		(at 95.504 131.826 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "43e194d4-1e53-4f46-bb8e-e99c879dbb3d")
+	)
 	(text "ToDo: Add missing output cap, (22uF?)"
 		(exclude_from_sim no)
 		(at 141.224 163.576 0)
@@ -9546,6 +9557,17 @@
 		)
 		(uuid "82464282-b38a-45b3-9caa-c1dea1bfc6e6")
 	)
+	(text "C6 -> 22k"
+		(exclude_from_sim no)
+		(at 123.444 131.318 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "959ec47a-363c-42d8-8852-b3ea41c71bc9")
+	)
 	(text "https://deepbluembedded.com/stm32-capacitive-touch-sensing-without-tsc/"
 		(exclude_from_sim no)
 		(at 90.932 139.446 0)
@@ -9565,6 +9587,27 @@
 			)
 		)
 		(uuid "dff4f378-c5a7-4426-b35a-61dfd28cacda")
+	)
+	(text_box "Ideas / To-Dos:\n#1 Add constant 3.3V TH pin (after 50ohm R) and GND TH pin near top for 11448 or 11450 auto changing LED.\n"
+		(exclude_from_sim no)
+		(at 83.82 15.24 0)
+		(size 58.42 24.13)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 21 18 1)
+			)
+			(justify left top)
+		)
+		(uuid "51294863-a0b5-4f4c-b0e4-b67f77ea4d46")
 	)
 	(junction
 		(at 137.16 41.91)
