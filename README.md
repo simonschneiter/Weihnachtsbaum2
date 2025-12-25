@@ -1,14 +1,15 @@
-# Electronics
-Repo for my electronics projects
+# Weihnachtsbaum
 
-A subfolder for each project.
+_Idea:_
+A post card size (A5) PCB in shape of a christmas tree. 
+SMD components are already soldered on when sending the postcard. The recipient of the postcard will then need to break apart the mousebites in the PCB, and solder on the THT components for the LEDs and series resistors.
 
-Within each project fodler there are possibly the following tool related subfolders:
-
+Folder Structure:
 - KiCad
+  - Orders
+  - Gerber
+  - Production
 - STM32
-- Altium
-- ESP32
 
 Within each subfolder resides a README.txt that describes the tool setup that is being used.
 E.g. for STM32 subfolder expect a description if STM32CubeIDE was used or another toolchain. Plus a desciption of which libraries, extensions etc. were used. All info to be able to recreate the build enviroment for the sources.
