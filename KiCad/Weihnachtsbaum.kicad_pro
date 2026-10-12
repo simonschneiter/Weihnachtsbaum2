@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 12.1,
-          "width": 17.0
+          "height": 1.2,
+          "width": 0.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,11 +48,136 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|121350000|166500000|2249715b-276b-4863-83b4-d8990d5a1607|06abf096-dcfb-4a23-954a-e9194baa8d76",
+          ""
+        ],
+        [
+          "copper_edge_clearance|128400000|178900000|290d9930-7a0a-4e7c-8347-b5cc14d7e8c7|67f218d3-7e42-4bf2-b533-baefc64975a5",
+          ""
+        ],
+        [
+          "copper_edge_clearance|128650000|166500000|2249715b-276b-4863-83b4-d8990d5a1607|83ab09d8-b5c4-4c12-b058-708286db4ba2",
+          ""
+        ],
+        [
+          "copper_edge_clearance|141300000|169100000|b9124501-e180-4f4a-bc40-874ccbbcee68|53d813bd-61f1-4eca-aaf4-b604f94f5dc7",
+          ""
+        ],
+        [
+          "copper_edge_clearance|141300000|169900000|b9124501-e180-4f4a-bc40-874ccbbcee68|469fc3b6-b102-4c77-86ae-74477d022baa",
+          ""
+        ],
+        [
+          "copper_edge_clearance|141300000|170400000|b9124501-e180-4f4a-bc40-874ccbbcee68|85a52219-9f20-45af-953e-479e21da1249",
+          ""
+        ],
+        [
+          "copper_edge_clearance|141300000|170900000|b9124501-e180-4f4a-bc40-874ccbbcee68|e5669bfe-c9d4-419d-9e4d-17018615715e",
+          ""
+        ],
+        [
+          "copper_edge_clearance|141300000|171400000|b9124501-e180-4f4a-bc40-874ccbbcee68|3ff8d80e-4662-4761-9bcb-e77586781fdc",
+          ""
+        ],
+        [
+          "copper_edge_clearance|141300000|171900000|b9124501-e180-4f4a-bc40-874ccbbcee68|c208077f-7cd5-4ceb-a5b4-7287efffeea7",
+          ""
+        ],
+        [
+          "copper_edge_clearance|141300000|172400000|b9124501-e180-4f4a-bc40-874ccbbcee68|34baf2c2-4a63-452b-9c67-cab6862e61b2",
+          ""
+        ],
+        [
+          "copper_edge_clearance|141300000|172900000|b9124501-e180-4f4a-bc40-874ccbbcee68|9303c448-c387-4553-bafe-4f0969bb1b38",
+          ""
+        ],
+        [
+          "copper_edge_clearance|141300000|173400000|b9124501-e180-4f4a-bc40-874ccbbcee68|c41f6d8e-51de-463a-804b-eebe49c4934d",
+          ""
+        ],
+        [
+          "copper_edge_clearance|141300000|173900000|b9124501-e180-4f4a-bc40-874ccbbcee68|ad4d3429-a174-47d4-aa79-624364ffb1de",
+          ""
+        ],
+        [
+          "copper_edge_clearance|141300000|174700000|b9124501-e180-4f4a-bc40-874ccbbcee68|21900493-9e33-4eae-a689-d5a2ca45a2cf",
+          ""
+        ],
+        [
+          "copper_edge_clearance|141300000|175500000|b9124501-e180-4f4a-bc40-874ccbbcee68|5a8c18af-f803-4b4e-ae6e-666c88e3445f",
+          ""
+        ],
+        [
+          "copper_edge_clearance|92100000|161237500|d240aee2-e8e8-4fbb-a511-8da00ef41765|82e1d04a-a83b-4198-94cb-e91ef4207996",
+          ""
+        ],
+        [
+          "copper_edge_clearance|92100000|162237500|d240aee2-e8e8-4fbb-a511-8da00ef41765|fc1dc9e8-6d6e-449d-8bfa-bce34e7f8ad9",
+          ""
+        ],
+        [
+          "copper_edge_clearance|92100000|163237500|d240aee2-e8e8-4fbb-a511-8da00ef41765|36cbc418-67ce-4861-ab92-97aff90aabdd",
+          ""
+        ],
+        [
+          "copper_edge_clearance|92100000|164262500|d240aee2-e8e8-4fbb-a511-8da00ef41765|aeeea440-342b-43b6-b421-164321412206",
+          ""
+        ],
+        [
+          "via_dangling|113800000|171600000|5d798579-b02e-4cdc-97dd-746720c97121|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "via_dangling|114700000|168700000|9b25f842-0a0e-4580-9ee5-9f427205b109|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "via_dangling|114900000|170000000|54f7c94d-570a-496c-85df-15af43298dcc|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "via_dangling|114900000|171700000|a9b76d58-8839-4f6b-ba4c-05cc8a87ac5a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "via_dangling|115400000|173700000|3a348880-fa90-47cb-bdc7-f23d54b53334|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "via_dangling|115900000|172800000|de5aaf6e-5eab-44db-b7e6-46b72a6b23d5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "via_dangling|116800000|167900000|ae246616-bfce-4823-ade1-e280404b74e8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "via_dangling|117200000|172900000|4aae0ace-3554-483d-a3f3-eea4b2253206|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "via_dangling|117900000|173800000|da96b350-6372-484c-be3a-aeec27936aa8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "via_dangling|118200000|172300000|82018cd3-a324-4d23-a2a1-c4e8cb62f24b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "via_dangling|119000000|169000000|f8a60c0a-4c13-4fb8-8d85-6562a062ebc2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "via_dangling|119500000|172400000|647a4650-b76b-4db7-8178-e53b2cb851a6|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -560,12 +685,204 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Category",
+          "name": "Category",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Class",
+          "name": "Class",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPB_PN",
+          "name": "JLCPB_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB",
+          "name": "JLCPCB",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB_PN",
+          "name": "JLCPCB_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Minimum Qty",
+          "name": "Minimum Qty",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part",
+          "name": "Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Process",
+          "name": "Process",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Stock",
+          "name": "Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Attrition Qty",
+          "name": "Attrition Qty",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SupplierURL",
+          "name": "SupplierURL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Current",
+          "name": "Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digi-Key",
+          "name": "Digi-Key",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase-URL",
+          "name": "Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ESR",
+          "name": "ESR",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

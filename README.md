@@ -11,6 +11,21 @@ Folder Structure:
   - Production
 - STM32
 
+
+## Changes List for Revision 2.0 (Oct 2026)
+- Add 9V block connector: Either Keystone 2in1 (MPN 967) or separate male (MPN 261) and female (269) - Done
+- Update SMPC to 9V capable type: TPS561243 buck reg 1A.
+- Add a diode for preventing 9V to reach USB 5V and destroy USB circuits.
+- Change SW1 from unpressed 0, pressed 1 (high=3.3V through 5.1k pull up) - Done
+- Add output cap for DC/DC converter (22 uF) - Done
+- Make USB connection solder pads between PCBs larger (in 90° corner). - Done
+- Add 3.3V on tip of tree for 11448 or 11450 auto color changing LED as option - Done
+- Remove library files from project and link to SLib library. - To Do
+
+
+
+## General Info
+
 Within each subfolder resides a README.txt that describes the tool setup that is being used.
 E.g. for STM32 subfolder expect a description if STM32CubeIDE was used or another toolchain. Plus a desciption of which libraries, extensions etc. were used. All info to be able to recreate the build enviroment for the sources.
 

@@ -334,7 +334,7 @@
 		(uuid "4aaa3c39-7a97-4c92-80c0-4e8df2160432")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/USB4515-GF-A_REVA.step"
+	(model "C:/work/KiCAD/Library/Step/USB4515-GF-A_REVA.step"
 		(offset
 			(xyz 0 0 0)
 		)
