@@ -63,7 +63,7 @@
           "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -636,7 +636,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerber/",
+      "plot": "CAM/Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -670,7 +670,7 @@
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -712,24 +712,18 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Category",
           "name": "Category",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Class",
           "name": "Class",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "JLCPB_PN",
-          "name": "JLCPB_PN",
           "show": false
         },
         {
@@ -742,7 +736,7 @@
           "group_by": false,
           "label": "JLCPCB_PN",
           "name": "JLCPCB_PN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -761,6 +755,12 @@
           "label": "Stock",
           "name": "Stock",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": true
         },
         {
           "group_by": false,
@@ -788,12 +788,6 @@
         },
         {
           "group_by": false,
-          "label": "MF",
-          "name": "MF",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Package",
           "name": "Package",
           "show": false
@@ -808,19 +802,19 @@
           "group_by": false,
           "label": "DK_PN",
           "name": "DK_PN",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "DK_URL",
           "name": "DK_URL",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Price",
           "name": "Price",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,

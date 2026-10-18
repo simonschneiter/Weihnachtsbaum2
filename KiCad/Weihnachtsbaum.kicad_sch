@@ -16172,17 +16172,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 151.13 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "23c8fc49-0a32-46ea-8140-dde1ac65ea2d")
 		)
@@ -16260,7 +16249,7 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
+		(property "JLCPCB_PN" "C25905"
 			(at 60.96 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -16421,17 +16410,6 @@
 				(justify bottom)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 27.94 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "A8"
 			(uuid "1a44a325-b037-454a-9796-9ecc4dedc7f7")
 		)
@@ -16547,17 +16525,6 @@
 		)
 		(property "Description" ""
 			(at 92.71 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
-			(at 92.71 96.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16722,7 +16689,7 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
+		(property "JLCPCB_PN" "C76637"
 			(at 146.05 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -16890,17 +16857,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 146.05 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "33a4e44e-c8b9-4523-8e7d-4ed6f6a522c8")
 		)
@@ -16968,17 +16924,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 237.49 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
-			(at 237.49 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17145,17 +17090,6 @@
 			)
 		)
 		(property "SupplierURL" ""
-			(at 31.75 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 31.75 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -17482,17 +17416,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 55.88 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "Weihnachtsbaum"
 				(path "/ad7bf2ae-63ab-42f6-9689-a50a8c837ddc"
@@ -17644,17 +17567,6 @@
 			)
 		)
 		(property "SupplierURL" ""
-			(at 55.88 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 55.88 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -17826,17 +17738,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 55.88 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "Weihnachtsbaum"
 				(path "/ad7bf2ae-63ab-42f6-9689-a50a8c837ddc"
@@ -17912,17 +17813,6 @@
 			)
 		)
 		(property "Category" "LED"
-			(at 199.39 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 199.39 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -18012,7 +17902,7 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
+		(property "JLCPCB_PN" "C26083"
 			(at 142.24 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -18095,17 +17985,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 212.09 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -18337,7 +18216,7 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
+		(property "JLCPCB_PN" "C42040978"
 			(at 92.71 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -18439,17 +18318,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 237.49 109.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "9b296c18-9fa7-4e71-b0f4-2282f5d1b3d9")
 		)
@@ -18532,7 +18400,7 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
+		(property "JLCPCB_PN" "C1525"
 			(at 109.22 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -18624,17 +18492,6 @@
 			)
 		)
 		(property "Category" "LED"
-			(at 260.35 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 260.35 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -18833,17 +18690,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 116.84 160.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "cc4e7d5f-071d-42aa-8bb0-294ea5939e39")
 		)
@@ -18925,17 +18771,6 @@
 			)
 		)
 		(property "Category" "LED"
-			(at 199.39 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 199.39 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -19037,17 +18872,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 199.39 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "810d7ecc-9a7e-4e91-85ff-06c92fc56bd6")
 		)
@@ -19119,17 +18943,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 168.91 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -19295,17 +19108,6 @@
 			)
 		)
 		(property "Category" "LED"
-			(at 199.39 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 199.39 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -19483,17 +19285,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 231.14 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "4e236922-4d72-4454-8584-d69a5f9c9fdc")
 		)
@@ -19565,17 +19356,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 231.14 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -19732,17 +19512,6 @@
 			)
 		)
 		(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin"
-			(at 72.39 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 72.39 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -20034,17 +19803,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 147.32 127 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "a2ae55f7-4f24-4367-9b36-8c5655ec1475")
 		)
@@ -20117,17 +19875,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 217.17 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -20216,17 +19963,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 273.05 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "4879c884-6780-4d10-90b9-18559271408a")
 		)
@@ -20304,17 +20040,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 147.32 160.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "0e4f8ff9-b65c-4eee-8e16-e0a36e0ed0ec")
 		)
@@ -20382,17 +20107,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 237.49 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
-			(at 237.49 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20481,17 +20195,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 208.28 63.5 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "6f302929-b7d4-4523-a5dc-ae1fe3a88fa3")
 		)
@@ -20562,17 +20265,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 171.45 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
-			(at 171.45 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20661,17 +20353,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 171.45 46.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "9250eb28-53e1-41ef-865a-1cb8ce871050")
 		)
@@ -20742,17 +20423,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 176.53 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
-			(at 176.53 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20918,17 +20588,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 208.28 82.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "52eca098-2c8d-4126-a0ce-328bbb902afb")
 		)
@@ -21066,17 +20725,6 @@
 			)
 		)
 		(property "Category" "IC-MCU"
-			(at 107.95 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 107.95 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -21380,7 +21028,7 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
+		(property "JLCPCB_PN" "C25905"
 			(at 81.28 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -21472,17 +21120,6 @@
 			)
 		)
 		(property "Category" "LED"
-			(at 260.35 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 260.35 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -21651,17 +21288,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 231.14 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "080249d1-7238-46db-84f3-ae40d31f31fc")
 		)
@@ -21805,17 +21431,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 194.31 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "daf4aee1-e09b-4610-8ebb-7c2c07dfe175")
 		)
@@ -21886,17 +21501,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 176.53 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
-			(at 176.53 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21985,17 +21589,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 208.28 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "83c2d97e-f156-4c01-8780-98e605cc46e0")
 		)
@@ -22067,17 +21660,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 226.06 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -22248,17 +21830,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 17.78 133.35 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "N"
 			(uuid "16b9e936-36bb-4308-b953-1e97b24b8754")
 		)
@@ -22409,17 +21980,6 @@
 		)
 		(property "Description" ""
 			(at 92.71 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
-			(at 92.71 105.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22593,17 +22153,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 31.75 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "Weihnachtsbaum"
 				(path "/ad7bf2ae-63ab-42f6-9689-a50a8c837ddc"
@@ -22670,17 +22219,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 278.13 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 278.13 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -22847,17 +22385,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 273.05 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "d81c9796-c647-4e00-a618-127ec31b58db")
 		)
@@ -23002,7 +22529,7 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
+		(property "JLCPCB_PN" "C920173"
 			(at 60.96 167.64 90)
 			(hide yes)
 			(show_name no)
@@ -23246,17 +22773,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 176.53 110.49 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "98cddbde-d1ac-43f5-9c35-430efc7ac832")
 		)
@@ -23327,17 +22843,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 237.49 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
-			(at 237.49 27.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23428,17 +22933,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 261.62 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "00f5701c-2b5c-4339-ae44-e23567dbf1db")
 		)
@@ -23506,17 +23000,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 237.49 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
-			(at 237.49 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23596,17 +23079,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 208.28 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
-			(at 208.28 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23707,17 +23179,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 260.35 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "e3447114-40e6-4d3d-8b99-813fc6a81fc7")
 		)
@@ -23790,17 +23251,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 273.05 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 273.05 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -23887,7 +23337,7 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
+		(property "JLCPCB_PN" "C277503"
 			(at 128.27 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -23970,17 +23420,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 41.91 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 41.91 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -24155,17 +23594,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 147.32 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "2b89f8c8-2e57-4e5d-be5f-48bb6c6af938")
 		)
@@ -24245,17 +23673,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 217.17 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "5a94f87e-4f84-4a77-85e9-4c078eaa802b")
 		)
@@ -24323,17 +23740,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 237.49 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
-			(at 237.49 46.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24424,17 +23830,6 @@
 			)
 		)
 		(property "Category" "LED"
-			(at 260.35 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 260.35 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -24612,17 +24007,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 55.88 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "Weihnachtsbaum"
 				(path "/ad7bf2ae-63ab-42f6-9689-a50a8c837ddc"
@@ -24688,17 +24072,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 165.1 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -24785,17 +24158,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 176.53 116.84 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "8ae71679-cf37-47b2-94be-93c6001a1b65")
 		)
@@ -24868,17 +24230,6 @@
 		)
 		(property "Description" ""
 			(at 73.66 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
-			(at 73.66 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25053,17 +24404,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 199.39 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "4a8b2de4-bd3e-4b8f-8520-04d082c55ed8")
 		)
@@ -25134,17 +24474,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 176.53 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
-			(at 176.53 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25236,17 +24565,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 162.56 160.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "1a6ee17a-42f5-48db-81da-e08a7d62cd9d")
 		)
@@ -25325,17 +24643,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 73.66 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "9e515a82-91be-42b3-a13a-39cc8f832d14")
 		)
@@ -25403,17 +24710,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 237.49 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
-			(at 237.49 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25504,17 +24800,6 @@
 			)
 		)
 		(property "Category" "LED"
-			(at 260.35 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 260.35 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -25692,17 +24977,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 76.2 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "Weihnachtsbaum"
 				(path "/ad7bf2ae-63ab-42f6-9689-a50a8c837ddc"
@@ -25777,17 +25051,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 146.05 186.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "0a483cb9-92bf-4e2d-85d4-b8c0cb18931e")
 		)
@@ -25822,7 +25085,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF / 16V"
 			(at 145.288 48.768 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25866,7 +25129,7 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
+		(property "JLCPCB_PN" "C96446"
 			(at 144.78 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -26035,17 +25298,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 151.13 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "2d398747-3451-48c2-9d18-e04668137f1b")
 		)
@@ -26157,7 +25409,7 @@
 				)
 			)
 		)
-		(property "Value" "15kR"
+		(property "Value" "82k"
 			(at 115.316 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26200,7 +25452,7 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
+		(property "JLCPCB_PN" "C4142"
 			(at 119.38 127 0)
 			(hide yes)
 			(show_name no)
@@ -26302,17 +25554,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 260.35 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "ad71a75d-8b8e-4242-aff7-0aca5d67f1f6")
 		)
@@ -26349,7 +25590,7 @@
 				)
 			)
 		)
-		(property "Value" "135k"
+		(property "Value" "82k"
 			(at 131.826 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26392,7 +25633,7 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
+		(property "JLCPCB_PN" "C4142"
 			(at 135.89 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -26570,17 +25811,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 76.2 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "Weihnachtsbaum"
 				(path "/ad7bf2ae-63ab-42f6-9689-a50a8c837ddc"
@@ -26656,17 +25886,6 @@
 			)
 		)
 		(property "Category" "LED"
-			(at 260.35 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 260.35 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -26758,17 +25977,6 @@
 			)
 		)
 		(property "Category" "LED"
-			(at 194.31 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 194.31 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -26946,17 +26154,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 231.14 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "79c391f3-d4ff-429f-9743-6db40211a125")
 		)
@@ -27039,17 +26236,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 161.29 186.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "51649d01-0f14-41e6-9c8b-ddb1c954d9fb")
 		)
@@ -27117,17 +26303,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 171.45 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
-			(at 171.45 27.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27370,17 +26545,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 171.45 40.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "f48917b4-0dbb-4d5e-9b0d-f41ba8cf864c")
 		)
@@ -27453,17 +26617,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 278.13 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 278.13 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -27638,17 +26791,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 76.2 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "Weihnachtsbaum"
 				(path "/ad7bf2ae-63ab-42f6-9689-a50a8c837ddc"
@@ -27810,17 +26952,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 31.75 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "Weihnachtsbaum"
 				(path "/ad7bf2ae-63ab-42f6-9689-a50a8c837ddc"
@@ -27960,17 +27091,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 266.7 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "3a47ac6f-a3e7-477a-8c33-33b7d33bbad9")
 		)
@@ -28052,17 +27172,6 @@
 			)
 		)
 		(property "Category" "LED"
-			(at 260.35 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 260.35 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -28386,17 +27495,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 147.32 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "66c6cccc-3665-4bb9-898c-8220be860df3")
 		)
@@ -28475,17 +27573,6 @@
 			)
 		)
 		(property "Category" "LED"
-			(at 194.31 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 194.31 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -28655,17 +27742,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 99.06 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "0d303523-0e20-4a0a-a4b4-ad676be1a909")
 		)
@@ -28753,17 +27829,6 @@
 			)
 		)
 		(property "Category" "LED"
-			(at 194.31 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 194.31 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -29095,17 +28160,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 231.14 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "5908a0bc-e091-4a35-8661-85b59677f75d")
 		)
@@ -29273,17 +28327,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 31.75 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "Weihnachtsbaum"
 				(path "/ad7bf2ae-63ab-42f6-9689-a50a8c837ddc"
@@ -29348,17 +28391,6 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 99.06 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 99.06 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -29603,17 +28635,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 17.78 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "dc66cca9-d2f6-465a-9526-c6ba7d1125fb")
 		)
@@ -29695,7 +28716,7 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
+		(property "JLCPCB_PN" "C76637"
 			(at 76.2 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -29865,17 +28886,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 73.66 99.06 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "5bed035f-c375-4e70-bb60-2ecaf8941c55")
 		)
@@ -29954,17 +28964,6 @@
 			)
 		)
 		(property "Category" "LED"
-			(at 194.31 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 194.31 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -30057,17 +29056,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 161.29 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "275d2a7b-673a-4e05-addf-03220d93b7d3")
 		)
@@ -30135,17 +29123,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 237.49 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
-			(at 237.49 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30236,17 +29213,6 @@
 			)
 		)
 		(property "Category" "LED"
-			(at 260.35 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 260.35 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -30425,17 +29391,6 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-			)
-		)
-		(property "JLCPB_PN" ""
-			(at 35.56 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -30688,17 +29643,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 31.75 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "Weihnachtsbaum"
 				(path "/ad7bf2ae-63ab-42f6-9689-a50a8c837ddc"
@@ -30766,17 +29710,6 @@
 		)
 		(property "Description" ""
 			(at 92.71 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
-			(at 92.71 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30874,17 +29807,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 260.35 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "63fcb19d-3013-4389-9942-f32d971d5061")
 		)
@@ -30965,7 +29887,7 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
+		(property "JLCPCB_PN" "C25905"
 			(at 52.07 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -31057,17 +29979,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 73.66 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "db03b0df-912f-4c68-a343-adc95d1a28a7")
 		)
@@ -31135,17 +30046,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 237.49 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
-			(at 237.49 21.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31226,17 +30126,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 226.06 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -31401,7 +30290,7 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
+		(property "JLCPCB_PN" "C277503"
 			(at 125.73 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -31493,17 +30382,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 261.62 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "56e9cdc6-7b38-4fa8-b58e-41002e299695")
 		)
@@ -31571,17 +30449,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 237.49 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
-			(at 237.49 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31672,17 +30539,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 165.1 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "f1e46fb5-58f1-46ab-9d05-bdfb5223e12d")
 		)
@@ -31761,7 +30617,7 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
+		(property "JLCPCB_PN" "C1525"
 			(at 137.16 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -31808,7 +30664,7 @@
 				)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "18k"
 			(at 131.826 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31851,7 +30707,7 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
+		(property "JLCPCB_PN" "C25756"
 			(at 135.89 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -32029,17 +30885,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 231.14 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "4db9c4d6-65b9-47b6-b678-f5fe089e045d")
 		)
@@ -32110,17 +30955,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 237.49 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
-			(at 237.49 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32297,17 +31131,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 55.88 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "Weihnachtsbaum"
 				(path "/ad7bf2ae-63ab-42f6-9689-a50a8c837ddc"
@@ -32374,17 +31197,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 212.09 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -32559,17 +31371,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 55.88 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "Weihnachtsbaum"
 				(path "/ad7bf2ae-63ab-42f6-9689-a50a8c837ddc"
@@ -32646,7 +31447,7 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
+		(property "JLCPCB_PN" "C1525"
 			(at 129.54 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -32804,17 +31605,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 176.53 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
-			(at 176.53 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32991,17 +31781,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 231.14 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "9b809c7d-9546-4f4e-9a3d-12336bcaee2d")
 		)
@@ -33072,17 +31851,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 208.28 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
-			(at 208.28 69.85 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33259,17 +32027,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 76.2 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "Weihnachtsbaum"
 				(path "/ad7bf2ae-63ab-42f6-9689-a50a8c837ddc"
@@ -33422,17 +32179,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 273.05 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "7bb1d29c-43bb-4b95-8608-3d00782336cb")
 		)
@@ -33511,17 +32257,6 @@
 			)
 		)
 		(property "Category" "LED"
-			(at 260.35 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 260.35 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -33699,17 +32434,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 76.2 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "Weihnachtsbaum"
 				(path "/ad7bf2ae-63ab-42f6-9689-a50a8c837ddc"
@@ -33777,17 +32501,6 @@
 		)
 		(property "Description" ""
 			(at 92.71 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
-			(at 92.71 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33962,7 +32675,7 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
+		(property "JLCPCB_PN" "C22466347"
 			(at 67.31 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -34043,17 +32756,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 171.45 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
-			(at 171.45 21.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34154,17 +32856,6 @@
 				)
 			)
 		)
-		(property "JLCPB_PN" ""
-			(at 199.39 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "f088e557-8fc3-4d78-b45f-cc4ef0b440c7")
 		)
@@ -34236,17 +32927,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 168.91 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -34411,17 +33091,6 @@
 			)
 		)
 		(property "SupplierURL" ""
-			(at 31.75 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPB_PN" ""
 			(at 31.75 52.07 0)
 			(hide yes)
 			(show_name no)
