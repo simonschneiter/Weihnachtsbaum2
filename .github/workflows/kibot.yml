@@ -15,10 +15,23 @@ on:
 jobs:
   kibot:
     runs-on: ubuntu-latest
+    env:
+      # the KiBot container sees the workspace at /github/workspace
+      JLCPCB_LIB: /github/workspace/.ci/jlcpcb
     steps:
       - uses: actions/checkout@v6
         with:
           submodules: recursive   # only needed if your libraries are submodules
+          token: ${{ secrets.LIB_TOKEN }}
+
+
+      - name: Get JLCPCB library
+        uses: actions/checkout@v6
+        with:
+          repository: CDFER/JLCPCB-Kicad-Library   # use the repo from step 1
+          path: .ci/jlcpcb
+          # ref: <tag or commit>   # optional: pin a version for reproducible builds
+
 
       - name: Run KiBot
         # v2_k10 = KiCad 10 with the latest stable KiBot.
