@@ -19,6 +19,7 @@ jobs:
       # the KiBot container sees the workspace at /github/workspace
       #JLCPCB_LIB: /github/workspace/.ci/jlcpcb
       JLCPCB_LIB: /github/workspace/.ci/jlcpcb/footprints
+      SKICAD_LIB: /github/workspace/kicad/libs/SKICadLib/
     steps:
       - uses: actions/checkout@v6
         with:
@@ -37,6 +38,31 @@ jobs:
       #  run: |
       #    find .ci/jlcpcb -name "*.pretty" -type d
       #    cat KiCad/fp-lib-table     # use your real project path
+
+
+      - name: Debug SLib paths
+        run: |
+          echo "=== KiCad project files ==="
+          find . -name "*.kicad_pro" -not -path "./.ci/*"
+          echo
+          echo "=== Submodule status ==="
+          git submodule status
+          echo
+          echo "=== Symbol libraries (.kicad_sym) in submodule ==="
+          find kicad/libs/SKICadLib -name "*.kicad_sym"
+          echo
+          echo "=== Footprint libraries (.pretty) in submodule ==="
+          find kicad/libs/SKICadLib -name "*.pretty" -type d
+          echo
+          echo "=== Project library tables ==="
+          for f in $(find . -name "sym-lib-table" -o -name "fp-lib-table" | grep -v "^./.ci/"); do
+            echo "--- $f"; cat "$f"; echo
+          done
+          echo
+          echo "=== Path variables in CI ==="
+          echo "SKICAD_LIB=${SKICAD_LIB:-<not set>}"
+          echo "JLCPCB_LIB=${JLCPCB_LIB:-<not set>}"
+
 
       - name: Run KiBot
         # v2_k10 = KiCad 10 with the latest stable KiBot.
