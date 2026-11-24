@@ -7,7 +7,12 @@ on:
       - '**.kicad_sch'
       - '**.kicad_pcb'
       - '**.kicad_pro'
+      - '**.kicad_dru'            # custom design rules      
+      - '**/sym-lib-table'
+      - '**/fp-lib-table'
       - '**.kibot.yaml'
+      - '.gitmodules'
+      - 'kicad/libs/**'           # submodule pointer updates
       - '.github/workflows/kibot.yml'
   pull_request:
   workflow_dispatch:        # allows a manual run from the Actions tab
