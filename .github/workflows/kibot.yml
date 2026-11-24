@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     container: ghcr.io/inti-cmnb/kicad10_auto_full:latest
     steps:
-      - run: fc-list : family | sort -u
+      - run: "fc-list : family | sort -u"
 
 
   kibot:
