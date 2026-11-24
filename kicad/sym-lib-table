@@ -1,4 +1,4 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "SLib") (type "KiCad") (uri "${SKICAD_LIB}/SLib.kicad_sym") (options "") (descr ""))
+	(lib (name "SLib") (type "KiCad") (uri "${KIPRJMOD}/libs/SKICadLib/SLib.kicad_sym") (options "") (descr ""))
 )
