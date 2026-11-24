@@ -1,0 +1,7 @@
+(version 1)
+(rule RoutingUSB
+	(constraint track_width (min 0.02mm) (opt 0.14mm) (max 0.26mm))
+	(constraint diff_pair_gap (min 0.02mm) (opt 0.14mm) (max 0.26mm))
+	(constraint diff_pair_uncoupled (max 1mm))
+	(condition "A.NetName == '/USB_N' && A.NetName == '/USB_P'")
+)
