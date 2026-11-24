@@ -36,8 +36,9 @@ jobs:
         uses: actions/checkout@v6
         with:
           repository: CDFER/JLCPCB-Kicad-Library   # use the repo from step 1
+          ref: '2025.07.18' # <tag or commit>   # optional: pin a version for reproducible builds
           path: .ci/jlcpcb
-          # ref: <tag or commit>   # optional: pin a version for reproducible builds
+          
 
       #- name: Debug library paths
       #  run: |
