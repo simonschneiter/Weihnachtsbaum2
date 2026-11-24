@@ -1,3 +1,0 @@
-[submodule "KiCad/KiCAD"]
-	path = KiCad/KiCAD
-	url = git@github.com:simonschneiter/KiCAD.git
