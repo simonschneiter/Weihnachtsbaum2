@@ -1,0 +1,92 @@
+# KiBot configuration for a KiCad project
+# Place this file next to your .kicad_pro file.
+kibot:
+  version: 1
+
+# ---------------------------------------------------------------------------
+# Checks that run before any output is generated.
+# A failed ERC/DRC stops the run and makes the CI job fail.
+# ---------------------------------------------------------------------------
+preflight:
+  erc: true                 # electrical rules check (schematic)
+  drc: true                 # design rules check (PCB)
+  check_zone_fills: true    # refill zones before generating outputs
+
+global:
+  # File naming: <project>-<output id>.<ext>
+  output: '%f-%i%I%v.%x'
+
+# ---------------------------------------------------------------------------
+# Outputs
+# ---------------------------------------------------------------------------
+outputs:
+  # ----- Fabrication -----
+  - name: gerbers
+    comment: Gerber files for the PCB fab
+    type: gerber
+    dir: Fabrication/Gerbers
+    options:
+      use_gerber_x2_attributes: true
+      use_gerber_net_attributes: true
+      subtract_mask_from_silk: true
+      plot_footprint_refs: true
+      plot_footprint_values: false
+      exclude_edge_layer: true
+    layers:
+      - copper
+      - F.Paste
+      - B.Paste
+      - F.Silkscreen
+      - B.Silkscreen
+      - F.Mask
+      - B.Mask
+      - Edge.Cuts
+
+  - name: drill
+    comment: Drill files (Excellon)
+    type: excellon
+    dir: Fabrication/Gerbers
+    options:
+      metric_units: true
+      pth_and_npth_single_file: false
+      map: pdf
+
+  - name: fab_zip
+    comment: Zip with Gerbers + drill files, ready to upload to the fab
+    type: compress
+    dir: Fabrication
+    options:
+      files:
+        - from_output: gerbers
+          dest: /
+        - from_output: drill
+          dest: /
+
+  # ----- Assembly -----
+  - name: position
+    comment: Pick-and-place file
+    type: position
+    dir: Assembly
+    options:
+      format: CSV
+      units: millimeters
+      separate_files_for_front_and_back: false
+      only_smd: true
+
+  - name: bom_csv
+    comment: Bill of materials (CSV)
+    type: bom
+    dir: Assembly
+    options:
+      format: CSV
+
+  - name: ibom
+    comment: Interactive HTML BOM (handy when hand-soldering)
+    type: ibom
+    dir: Assembly
+
+  # ----- Documentation -----
+  - name: schematic_pdf
+    comment: Schematic as PDF
+    type: pdf_sch_print
+    dir: Documentation

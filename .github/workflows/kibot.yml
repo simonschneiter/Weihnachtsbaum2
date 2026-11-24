@@ -1,0 +1,40 @@
+# Place this file at: .github/workflows/kibot.yml (in the repository root)
+name: KiBot
+
+on:
+  push:
+    paths:
+      - '**.kicad_sch'
+      - '**.kicad_pcb'
+      - '**.kicad_pro'
+      - '**.kibot.yaml'
+      - '.github/workflows/kibot.yml'
+  pull_request:
+  workflow_dispatch:        # allows a manual run from the Actions tab
+
+jobs:
+  kibot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive   # only needed if your libraries are submodules
+
+      - name: Run KiBot
+        # v2_k10 = KiCad 10 with the latest stable KiBot.
+        # (v2_dk10 = KiCad 10 with the KiBot development version)
+        uses: INTI-CMNB/KiBot@v2_k10
+        with:
+          # All paths are relative to the repository root.
+          config: hardware/myboard/config.kibot.yaml
+          schema: hardware/myboard/myboard.kicad_sch   # top-level sheet
+          board:  hardware/myboard/myboard.kicad_pcb
+          dir: output
+
+      - name: Upload outputs
+        if: always()              # also upload reports when ERC/DRC fail
+        uses: actions/upload-artifact@v4
+        with:
+          name: kibot-outputs
+          path: output
+          retention-days: 14
