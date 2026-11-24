@@ -32,6 +32,10 @@ jobs:
           path: .ci/jlcpcb
           # ref: <tag or commit>   # optional: pin a version for reproducible builds
 
+      - name: Debug library paths
+        run: |
+          find .ci/jlcpcb -name "*.pretty" -type d
+          cat KiCad/fp-lib-table     # use your real project path
 
       - name: Run KiBot
         # v2_k10 = KiCad 10 with the latest stable KiBot.
