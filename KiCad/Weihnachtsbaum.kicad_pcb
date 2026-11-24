@@ -3911,7 +3911,7 @@
 			(layers "F.Cu" "F.Mask")
 			(net "unconnected-(J2-SWO-Pad6)")
 			(pinfunction "SWO_6")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "1deabea5-b88d-48c5-8642-7b14c2e9b744")
 		)
 		(zone
@@ -4906,7 +4906,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(J3-SBU1-PadA8)")
 			(pinfunction "SBU1_A8")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "e5669bfe-c9d4-419d-9e4d-17018615715e")
 		)
@@ -4966,7 +4966,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(J3-SBU2-PadB8)")
 			(pinfunction "SBU2_B8")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "ad4d3429-a174-47d4-aa79-624364ffb1de")
 		)
@@ -11994,7 +11994,7 @@
 				)
 			)
 		)
-		(property "JLCPCB_PN" "C26083"
+		(property "JLCPCB_PN" "C22935"
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17525,7 +17525,7 @@
 				)
 			)
 		)
-		(property "JLCPCB_PN" ""
+		(property "JLCPCB_PN" "C26083"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26368,7 +26368,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(SW1-A1-Pad2)")
 			(pinfunction "A1_2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "2eb9233e-40ff-4c22-9199-80e1f87ddde1")
 		)
@@ -26378,7 +26378,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(SW1-B0-Pad3)")
 			(pinfunction "B0_3")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "5041d206-11ea-40c9-9ae2-78e2c6976de1")
 		)
@@ -38876,7 +38876,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5nF"
+		(property "Value" "1.0nF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -38914,7 +38914,7 @@
 				)
 			)
 		)
-		(property "JLCPCB_PN" "C277503"
+		(property "JLCPCB_PN" "C1523"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
