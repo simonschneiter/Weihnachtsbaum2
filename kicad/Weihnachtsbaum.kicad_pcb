@@ -116042,8 +116042,8 @@
 		(layer "User.3")
 		(uuid "1e02a8ff-212c-45db-b450-256979a2196f")
 	)
-	(gr_text "27x Bi-Dir LED with 2 colors\n\n"
-		(at 105.9 40.6 0)
+	(gr_text "27x Bi-Dir LED with 2 colors"
+		(at 105.9 32.05 0)
 		(layer "F.Cu")
 		(uuid "af5ff9ad-e7d3-4fbb-8465-586960c574c7")
 		(effects
@@ -116053,9 +116053,9 @@
 				(thickness 0.3)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left top)
 		)
-		(render_cache "27x Bi-Dir LED with 2 colors\n\n" 0
+		(render_cache "27x Bi-Dir LED with 2 colors" 0
 			(polygon
 				(pts
 					(xy 105.986645 34.960423) (xy 106.291643 34.728148) (xy 106.519155 34.529762) (xy 106.681088 34.359036)
@@ -116971,8 +116971,8 @@
 			)
 		)
 	)
-	(gr_text "27x Bi-Dir LED with 2 colors\n\n"
-		(at 105.9 40.6 0)
+	(gr_text "27x Bi-Dir LED with 2 colors"
+		(at 105.9 32.05 0)
 		(layer "F.Mask")
 		(uuid "02907fc4-c807-421d-8c47-87d361dcb94a")
 		(effects
@@ -116982,9 +116982,9 @@
 				(thickness 0.3)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left top)
 		)
-		(render_cache "27x Bi-Dir LED with 2 colors\n\n" 0
+		(render_cache "27x Bi-Dir LED with 2 colors" 0
 			(polygon
 				(pts
 					(xy 105.986645 34.960423) (xy 106.291643 34.728148) (xy 106.519155 34.529762) (xy 106.681088 34.359036)
