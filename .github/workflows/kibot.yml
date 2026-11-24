@@ -26,6 +26,13 @@ jobs:
   #    - run: kicad-cli version --format about
 
 
+  list-fonts:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad10_auto_full:latest
+    steps:
+      - run: fc-list : family | sort -u
+
+
   kibot:
     runs-on: ubuntu-latest
     env:
