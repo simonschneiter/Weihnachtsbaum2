@@ -44,9 +44,9 @@ jobs:
         uses: INTI-CMNB/KiBot@v2_k10
         with:
           # All paths are relative to the repository root.
-          config: KiCad/config.kibot.yaml
-          schema: KiCad/Weihnachtsbaum.kicad_sch   # top-level sheet
-          board:  KiCad/Weihnachtsbaum.kicad_pcb
+          config: kicad/config.kibot.yaml
+          schema: kicad/Weihnachtsbaum.kicad_sch   # top-level sheet
+          board:  kicad/Weihnachtsbaum.kicad_pcb
           dir: output
 
       - name: Upload outputs

@@ -1,0 +1,3 @@
+[submodule "kicad/libs/SKICadLib"]
+	path = kicad/libs/SKICadLib
+	url = git@github.com:simonschneiter/SKICadLib.git
