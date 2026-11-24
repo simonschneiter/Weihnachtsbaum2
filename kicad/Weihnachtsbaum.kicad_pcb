@@ -116544,7 +116544,7 @@
 			)
 		)
 	)
-	(gr_text "27x Resistor 180-220 Ω\n"
+	(gr_text "27x Resistor 180-220 Ω"
 		(at 47.4 71.1 90)
 		(layer "F.Cu")
 		(uuid "b15683fe-173d-4790-be96-2c6bfb2c2bc0")
@@ -116557,7 +116557,7 @@
 			)
 			(justify left bottom)
 		)
-		(render_cache "27x Resistor 180-220 Ω\n" 90
+		(render_cache "27x Resistor 180-220 Ω" 90
 			(polygon
 				(pts
 					(xy 46.800423 71.013354) (xy 46.568148 70.708356) (xy 46.369762 70.480844) (xy 46.199036 70.318911)
@@ -117473,7 +117473,7 @@
 			)
 		)
 	)
-	(gr_text "27x Resistor 180-220 Ω\n"
+	(gr_text "27x Resistor 180-220 Ω"
 		(at 47.4 71.1 90)
 		(layer "F.Mask")
 		(uuid "39882b55-7726-4bb9-8722-0f8c029e1028")
@@ -117486,7 +117486,7 @@
 			)
 			(justify left bottom)
 		)
-		(render_cache "27x Resistor 180-220 Ω\n" 90
+		(render_cache "27x Resistor 180-220 Ω" 90
 			(polygon
 				(pts
 					(xy 46.800423 71.013354) (xy 46.568148 70.708356) (xy 46.369762 70.480844) (xy 46.199036 70.318911)
