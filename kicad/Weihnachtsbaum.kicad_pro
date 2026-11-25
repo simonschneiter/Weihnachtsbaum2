@@ -72,15 +72,7 @@
       "diff_pair_dimensions": [],
       "drc_exclusions": [
         [
-          "copper_edge_clearance|121350000|166500000|2249715b-276b-4863-83b4-d8990d5a1607|06abf096-dcfb-4a23-954a-e9194baa8d76",
-          ""
-        ],
-        [
           "copper_edge_clearance|128400000|178900000|290d9930-7a0a-4e7c-8347-b5cc14d7e8c7|67f218d3-7e42-4bf2-b533-baefc64975a5",
-          ""
-        ],
-        [
-          "copper_edge_clearance|128650000|166500000|2249715b-276b-4863-83b4-d8990d5a1607|83ab09d8-b5c4-4c12-b058-708286db4ba2",
           ""
         ],
         [
@@ -833,6 +825,12 @@
           "label": "STANDARD",
           "name": "STANDARD",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -891,7 +889,7 @@
         "uuid": "ad7bf2ae-63ab-42f6-9689-a50a8c837ddc"
       }
     ],
-    "used_designators": "D31",
+    "used_designators": "#PWR20,D1-16,D18-20,D31,D33-71,Q1,R38-39",
     "variants": []
   },
   "sheets": [
